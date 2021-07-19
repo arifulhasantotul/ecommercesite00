@@ -16,18 +16,26 @@ section.slideshow img{
 section.slideshow .carousel-inner .price{
     color:#FF136F ;
 }
-section.slideshow .carousel-inner a.btn{
+section.slideshow .carousel-inner a.btn,
+section.shoes a.btn,
+section.backpacks a.btn{
     background: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     border-radius: 8px;
+    color: #fff;
+    border-width: 0;
 }
 
-section.category, section.shoes, section.backpack { 
+section.category, 
+section.shoes, 
+section.backpack { 
     margin-bottom: calc(95px - 3vw);
 }
 main .category .row{
     margin: 0 -15px;
 }
-main .category .watch,main .category .bag,main .category .shoes{
+main .category .watch,
+main .category .bag,
+main .category .shoes{
     padding: 10px 30px;
     border-radius: 10px;
     color: #fff;
@@ -44,4 +52,9 @@ main .category .bag{
 }
 main .category .shoes{
     background: #0000FF;
+}
+section.shoes .card,
+section.backpacks .card{
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
