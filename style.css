@@ -1,0 +1,18 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+nav{
+    margin-bottom: 100px;
+}
+section.slideshow {
+    background: #FCEAE8;
+    border-radius: 10px;
+}
+section.slideshow .carousel-inner .price{
+    color:#FF136F ;
+}
+section.slideshow .carousel-inner a.btn{
+    background: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    border-radius: 8px;
+}
