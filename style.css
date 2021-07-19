@@ -8,6 +8,10 @@ nav{
 section.slideshow {
     background: #FCEAE8;
     border-radius: 10px;
+    margin-bottom: calc(95px - 3vw);
+}
+section.slideshow img{
+    width: calc(100% - 3.3vw);
 }
 section.slideshow .carousel-inner .price{
     color:#FF136F ;
@@ -15,4 +19,29 @@ section.slideshow .carousel-inner .price{
 section.slideshow .carousel-inner a.btn{
     background: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
     border-radius: 8px;
+}
+
+section.category, section.shoes, section.backpack { 
+    margin-bottom: calc(95px - 3vw);
+}
+main .category .row{
+    margin: 0 -15px;
+}
+main .category .watch,main .category .bag,main .category .shoes{
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+main .category .watch img, .bag img, .shoes img{
+    width: 100px;
+}
+main .category .watch{
+    background: #FFA500;
+}
+main .category .bag{
+    background: #DA70D6;
+}
+main .category .shoes{
+    background: #0000FF;
 }
